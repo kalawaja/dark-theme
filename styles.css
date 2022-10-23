@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("assets/fullscreendark-profile-photo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 35px;
+    left: 35px;
+}
+
+header i {
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    width: 60px;
+    height: 60px;
+    padding: 30px 0px 0px 22px;
+}
+
+div {
+    color: #fff;
+    width: 550px;
+    position: fixed;
+    top: 200px;
+    left: 720px;
+    line-height: 3em;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 7px;
+}
+
+h3 {
+    font-size: 19px;
+    font-weight: normal;
+}
+
+span {
+    color: #ffc107;
+}
+
+p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 32px;
+    margin-bottom: 9px;
+}
+
+button {
+    border: 1px solid #ffc107;
+    background-color: #ffc107;
+    padding: 15px;
+    border-radius: 50px;
+    width: 190px;
+    float: left;
+    margin: 10px 20px 0px 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#first-button {
+    color: #fff;
+    width: 215px;
+}
+
+button:last-child {
+    background-color: transparent;
+    color: #ffc107;
+    width: 180px;
+}
+
+i {
+    padding-right: 5px;
+}
